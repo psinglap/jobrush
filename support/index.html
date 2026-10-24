@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JobRush Help</title><meta name="description" content="Getting started with JobRush, common questions and troubleshooting.">
+<link rel="icon" type="image/png" href="/jobrush/assets/favicon.png">
+<style>
+:root{--bg:#f6f6f9;--surface:#fff;--text:#15151c;--text-2:#50505f;--border:#e2e2ea;--accent:#4f46e5;--accent-text:#4038c8;--accent-soft:#eeedfd;--hero1:#312e81;--hero2:#4338ca;--code:#f0f0f5}
+@media (prefers-color-scheme:dark){:root{--bg:#0e0e13;--surface:#17171e;--text:#f0f0f5;--text-2:#b9b9c8;--border:#2a2a35;--accent:#8d88ff;--accent-text:#b4b1ff;--accent-soft:#23213f;--code:#1f1f28}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent-text)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:880px;margin:0 auto;padding:18px 16px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;color:var(--text);text-decoration:none}
+.logo img{width:32px;height:32px}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:15px}
+.nav a{text-decoration:none;color:var(--text-2)}.nav a:hover,.nav a[aria-current]{color:var(--accent-text)}
+main{max-width:880px;margin:0 auto;padding:8px 16px 48px}
+.doc{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px clamp(16px,4vw,44px)}
+.doc h1{font-size:clamp(28px,5vw,36px);line-height:1.15;letter-spacing:-.02em;margin:0 0 12px}
+.doc h2{font-size:22px;margin:32px 0 8px;letter-spacing:-.01em}
+.doc table{width:100%;border-collapse:collapse;font-size:15px;margin:12px 0;display:block;overflow-x:auto}
+.doc th,.doc td{border-bottom:1px solid var(--border);padding:9px 10px;text-align:left;vertical-align:top}
+.doc th{font-weight:700;background:var(--code)}
+code{background:var(--code);border-radius:5px;padding:1px 5px;font-size:.92em}
+footer{max-width:880px;margin:0 auto;padding:0 16px 40px;color:var(--text-2);font-size:14px;display:flex;gap:16px;flex-wrap:wrap}
+footer a{color:var(--text-2)}
+.hero{background:linear-gradient(135deg,var(--hero1),var(--hero2));color:#fff;border-radius:20px;padding:clamp(28px,6vw,56px) clamp(20px,5vw,48px);text-align:center}
+.hero img{width:88px;height:88px}
+.hero h1{font-size:clamp(34px,7vw,52px);margin:10px 0 6px;letter-spacing:-.03em;line-height:1.05}
+.hero p{font-size:clamp(17px,2.6vw,20px);color:#dfe1ff;margin:8px auto 0;max-width:620px}
+.cta{display:inline-block;margin-top:26px;background:#fff;color:#3b33b8;font-weight:700;font-size:17px;text-decoration:none;padding:13px 24px;border-radius:12px;box-shadow:0 8px 24px rgba(10,8,50,.3)}
+.cta:hover{background:#eeedfd}
+.small{font-size:14px;color:#c7c9f5;margin-top:12px}
+.feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:28px 0}
+.feat{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px}
+.feat h3{margin:0 0 4px;font-size:17px}.feat p{margin:0;color:var(--text-2);font-size:15px}
+.shots{display:grid;gap:18px;margin-top:8px}
+.shots img{width:100%;height:auto;border-radius:12px;border:1px solid var(--border);display:block}
+h2.sec{font-size:24px;margin:36px 0 12px;letter-spacing:-.01em}
+</style></head><body>
+<header class="top"><a class="logo" href="/jobrush/"><img src="/jobrush/assets/icon128.png" alt="">JobRush</a>
+<nav class="nav" aria-label="Site"><a href="/jobrush/">Home</a><a href="/jobrush/support/" aria-current="page">Help</a><a href="/jobrush/privacy/">Privacy</a><a href="/jobrush/terms/">Terms</a></nav></header>
+<main><article class="doc"><h1>JobRush Help</h1>
+<p>JobRush is a free browser extension that finds newly posted roles that match your rules, fills and submits applications for you (it shows you each one first unless you turn on auto-submit), and tracks every company on your own Notion board. No account. The AI runs privately on your device.</p>
+<p><strong>Contact:</strong> <a href="https://github.com/psinglap/jobrush/issues">open an issue on GitHub</a><br><strong>Privacy policy:</strong> <a href="https://psinglap.github.io/jobrush/privacy/">psinglap.github.io/jobrush/privacy</a></p>
+<h2>Get started (about 3 minutes)</h2>
+<ol>
+<li>Install JobRush from the <a href="https://chromewebstore.google.com/detail/olenakkbgphhpfkmdhbphiclfldhbbmk">Chrome Web Store</a> and pin it.</li>
+<li>Open the side panel and follow the steps: upload your resume, tell JobRush what you&#39;re looking for in one message, add your LinkedIn connections file (optional), connect your Notion board, and review your rules.</li>
+<li>Press <strong>Start</strong>. Keep your browser open while it works.</li>
+</ol>
+<h2>Common questions</h2>
+<p><strong>Is it really free? What&#39;s the catch?</strong><br>It is free. There is no paid plan, no ads and no account. JobRush runs on your device, so there is no server cost to pass on.</p>
+<p><strong>Where does my data go?</strong><br>It stays in your browser and on your own Notion board. Nothing is sent to JobRush. See the <a href="https://psinglap.github.io/jobrush/privacy/">privacy policy</a>.</p>
+<p><strong>What do I tell it during setup?</strong><br>One message. JobRush reads your resume and pre-fills a checklist: roles, levels, where, minimum pay, how fresh, and whether to send automatically or show you first. Type one message to add or change anything, for example &quot;I don&#39;t need sponsorship, $150k+, also London and Group PM roles&quot;. The only thing it always asks you directly is visa sponsorship and work authorization.</p>
+<p><strong>How fresh are the roles?</strong><br>You choose: posted in the last 24 hours, 3 days, 7 days or 30 days. The default is the last 7 days. Change it any time in Rules or by chatting.</p>
+<p><strong>Will it submit applications without asking me?</strong><br>Not unless you say so. By default JobRush fills each application and waits for you to press Submit. You can turn on auto-submit in Rules, with a daily limit.</p>
+<p><strong>Will it answer questions like sponsorship or work authorization?</strong><br>Only with the exact answers you gave in setup. These are never guessed. If a form asks a fact question you have not answered, JobRush stops and lists it under &quot;Needs you&quot;.</p>
+<p><strong>Will it create accounts on job sites?</strong><br>No. JobRush never creates accounts and never types passwords. When a site needs a sign-in, the company moves to <strong>Need Login/Signup</strong> on your board. Sign in yourself in the same browser, and JobRush retries those roles later.</p>
+<p><strong>Why does my browser need to stay open?</strong><br>JobRush works inside your browser. When the browser is closed it pauses and carries on when you open it again.</p>
+<p><strong>How do I change what it looks for?</strong><br>Open the <strong>Chat</strong> tab and say it in your own words, for example: &quot;Add Toronto and remote Canada, drop anything under 150k, and stop applying to banks.&quot; JobRush shows a before/after of every change and only applies it when you press Confirm. Every change can be undone.</p>
+<p><strong>Which board does it use?</strong><br>Notion. Each company gets one card, moving through the same stages: New Roles, Do Networking, Ready to Network, Referral Applications, Need Login/Signup, Application Submitted, Follow-up, Interviews, Offers, Rejections. JobRush never moves a company out of Interviews, Offers or Rejections. Google Sheets is coming soon.</p>
+<p><strong>I deleted a company from my board. Will it come back?</strong><br>No. Companies you delete stay deleted.</p>
+<p><strong>What is &quot;private AI&quot;?</strong><br>An open-source AI model that downloads once (a few GB) and runs inside your browser. It writes short job summaries, picks answers for unusual dropdowns and drafts open answers from your resume. Nothing you type or upload is sent to an AI company. You can say &quot;Not now&quot;; simple rule changes still work, and open questions wait for you under &quot;Needs you&quot;.</p>
+<p><strong>My computer is slow or has little memory.</strong><br>If your device cannot run the model, open-ended questions (&quot;Why do you want to work here?&quot;) are left for you under &quot;Needs you&quot; instead of being filled with a weaker guess.</p>
+<p><strong>How do I get my LinkedIn connections file?</strong><br>On LinkedIn: Me &gt; Settings &amp; Privacy &gt; Data privacy &gt; Get a copy of your data &gt; Connections. LinkedIn emails you a link; download the file and drop it into JobRush.</p>
+<h2>Troubleshooting</h2>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>What to do</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Home says it has gone quiet</td>
+<td>Check the browser is open and JobRush is not paused. Press Pause then Start. If it stays quiet, open an issue with the time it stopped.</td>
+</tr>
+<tr>
+<td>&quot;Sign-in needed&quot; on many roles</td>
+<td>Sign in to that job site in the same browser. JobRush retries automatically.</td>
+</tr>
+<tr>
+<td>Board not updating</td>
+<td>Notion &gt; Settings &gt; Connections: check JobRush still has access to the board page.</td>
+</tr>
+<tr>
+<td>A form was filled wrongly</td>
+<td>Correct the answer in Rules &gt; Your answers (by chatting, then Confirm). Please open an issue with the job link so we can fix that form type.</td>
+</tr>
+<tr>
+<td>Uninstall</td>
+<td>Remove the extension. Everything it stored in your browser is deleted. Your board stays yours.</td>
+</tr>
+</tbody></table>
+<h2>Report a problem</h2>
+<p><a href="https://github.com/psinglap/jobrush/issues">Open an issue on GitHub</a> with: what you expected, what happened, the job link (if any), and your JobRush version. Issues are public, so please do not include your resume, contact details or passwords.</p>
+</article></main>
+<footer><span>JobRush · free, no account, private AI on your device</span><a href="/jobrush/privacy/">Privacy</a><a href="/jobrush/terms/">Terms</a><a href="https://github.com/psinglap/jobrush/issues">Contact (GitHub issues)</a></footer>
+</body></html>

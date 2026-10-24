@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JobRush – Automatic Job Finder & Auto Apply</title><meta name="description" content="JobRush finds fresh jobs, fills applications for you and tracks every company on your Notion board. Free, no account, private AI on your device.">
+<link rel="icon" type="image/png" href="/jobrush/assets/favicon.png">
+<style>
+:root{--bg:#f6f6f9;--surface:#fff;--text:#15151c;--text-2:#50505f;--border:#e2e2ea;--accent:#4f46e5;--accent-text:#4038c8;--accent-soft:#eeedfd;--hero1:#312e81;--hero2:#4338ca;--code:#f0f0f5}
+@media (prefers-color-scheme:dark){:root{--bg:#0e0e13;--surface:#17171e;--text:#f0f0f5;--text-2:#b9b9c8;--border:#2a2a35;--accent:#8d88ff;--accent-text:#b4b1ff;--accent-soft:#23213f;--code:#1f1f28}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:var(--accent-text)}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;max-width:880px;margin:0 auto;padding:18px 16px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:20px;color:var(--text);text-decoration:none}
+.logo img{width:32px;height:32px}
+.nav{display:flex;gap:16px;flex-wrap:wrap;font-size:15px}
+.nav a{text-decoration:none;color:var(--text-2)}.nav a:hover,.nav a[aria-current]{color:var(--accent-text)}
+main{max-width:880px;margin:0 auto;padding:8px 16px 48px}
+.doc{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:28px clamp(16px,4vw,44px)}
+.doc h1{font-size:clamp(28px,5vw,36px);line-height:1.15;letter-spacing:-.02em;margin:0 0 12px}
+.doc h2{font-size:22px;margin:32px 0 8px;letter-spacing:-.01em}
+.doc table{width:100%;border-collapse:collapse;font-size:15px;margin:12px 0;display:block;overflow-x:auto}
+.doc th,.doc td{border-bottom:1px solid var(--border);padding:9px 10px;text-align:left;vertical-align:top}
+.doc th{font-weight:700;background:var(--code)}
+code{background:var(--code);border-radius:5px;padding:1px 5px;font-size:.92em}
+footer{max-width:880px;margin:0 auto;padding:0 16px 40px;color:var(--text-2);font-size:14px;display:flex;gap:16px;flex-wrap:wrap}
+footer a{color:var(--text-2)}
+.hero{background:linear-gradient(135deg,var(--hero1),var(--hero2));color:#fff;border-radius:20px;padding:clamp(28px,6vw,56px) clamp(20px,5vw,48px);text-align:center}
+.hero img{width:88px;height:88px}
+.hero h1{font-size:clamp(34px,7vw,52px);margin:10px 0 6px;letter-spacing:-.03em;line-height:1.05}
+.hero p{font-size:clamp(17px,2.6vw,20px);color:#dfe1ff;margin:8px auto 0;max-width:620px}
+.cta{display:inline-block;margin-top:26px;background:#fff;color:#3b33b8;font-weight:700;font-size:17px;text-decoration:none;padding:13px 24px;border-radius:12px;box-shadow:0 8px 24px rgba(10,8,50,.3)}
+.cta:hover{background:#eeedfd}
+.small{font-size:14px;color:#c7c9f5;margin-top:12px}
+.feats{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:28px 0}
+.feat{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:18px 20px}
+.feat h3{margin:0 0 4px;font-size:17px}.feat p{margin:0;color:var(--text-2);font-size:15px}
+.shots{display:grid;gap:18px;margin-top:8px}
+.shots img{width:100%;height:auto;border-radius:12px;border:1px solid var(--border);display:block}
+h2.sec{font-size:24px;margin:36px 0 12px;letter-spacing:-.01em}
+</style></head><body>
+<header class="top"><a class="logo" href="/jobrush/"><img src="/jobrush/assets/icon128.png" alt="">JobRush</a>
+<nav class="nav" aria-label="Site"><a href="/jobrush/" aria-current="page">Home</a><a href="/jobrush/support/">Help</a><a href="/jobrush/privacy/">Privacy</a><a href="/jobrush/terms/">Terms</a></nav></header>
+<main><section class="hero"><img src="/jobrush/assets/icon128.png" alt="JobRush logo">
+<h1>JobRush</h1><p>Fresh jobs. Applied for you. JobRush finds newly posted roles that fit you, fills the applications and tracks every company on your own Notion board.</p>
+<a class="cta" href="https://chromewebstore.google.com/detail/olenakkbgphhpfkmdhbphiclfldhbbmk">Add to Chrome — it's free</a><p class="small">No account. Private AI on your device.</p></section>
+<div class="feats"><div class="feat"><h3>Fresh roles, found for you</h3><p>Checks company career pages and job boards for new roles that match your rules. You choose how fresh: 24 hours to 30 days, 7 days by default.</p></div><div class="feat"><h3>Applications filled for you</h3><p>Fills each form with your saved details. It shows you each one first; turn on auto-submit if you want, with a daily limit.</p></div><div class="feat"><h3>Tracked on your Notion board</h3><p>One card per company, from New Roles to Interviews, with the people you know there. Google Sheets is coming soon.</p></div><div class="feat"><h3>Set up in one message</h3><p>Upload your resume and tell JobRush what you want in one message. Change your rules later by chatting, with Confirm and Undo.</p></div><div class="feat"><h3>Private by design</h3><p>No account and no JobRush database. Your data stays in your browser and your own board. The AI runs on your device.</p></div><div class="feat"><h3>Safe by default</h3><p>Never creates accounts or types passwords. Sponsorship and work authorization are answered only as you saved them, never guessed.</p></div></div>
+<h2 class="sec">See it in action</h2>
+<div class="shots"><img src="/jobrush/assets/screenshot-1-home.png" alt="Home: finds fresh roles and applies for you" width="1280" height="800" loading="lazy"><img src="/jobrush/assets/screenshot-2-review.png" alt="See every application before it's sent" width="1280" height="800" loading="lazy"><img src="/jobrush/assets/screenshot-3-board.png" alt="Every company tracked on your Notion board" width="1280" height="800" loading="lazy"><img src="/jobrush/assets/screenshot-4-chat.png" alt="Change your rules by chatting" width="1280" height="800" loading="lazy"><img src="/jobrush/assets/screenshot-5-rules.png" alt="Your rules in plain words" width="1280" height="800" loading="lazy"></div>
+<h2 class="sec">Links</h2>
+<ul><li><a href="https://chromewebstore.google.com/detail/olenakkbgphhpfkmdhbphiclfldhbbmk">JobRush in the Chrome Web Store</a></li><li><a href="/jobrush/support/">Help and common questions</a></li><li><a href="/jobrush/privacy/">Privacy policy</a></li><li><a href="/jobrush/terms/">Terms of use</a></li><li><a href="https://github.com/psinglap/jobrush/issues">Report a problem or ask a question</a></li></ul></main>
+<footer><span>JobRush · free, no account, private AI on your device</span><a href="/jobrush/privacy/">Privacy</a><a href="/jobrush/terms/">Terms</a><a href="https://github.com/psinglap/jobrush/issues">Contact (GitHub issues)</a></footer>
+</body></html>
